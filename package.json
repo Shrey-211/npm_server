@@ -1,5 +1,5 @@
 {
-  "name": "@your-username/cursor-mcp-server",
+  "name": "@shrey211/cursor-mcp-server",
   "version": "1.0.0",
   "bin": {
     "cursor-mcp-myserver": "./server/mcp-server.js"
@@ -16,10 +16,10 @@
   },
   "description": "A pure JavaScript MCP server for Cursor IDE",
   "keywords": ["mcp", "cursor", "model-context-protocol"],
-  "author": "Your Name",
+  "author": "Shreyas Jadhav",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/cursor-mcp-server"
+    "url": "https://github.com/Shrey-211/npm_server"
   }
 }

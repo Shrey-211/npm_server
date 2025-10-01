@@ -5,7 +5,7 @@ A pure JavaScript MCP server with health, handshake, and list-models tools. No P
 ## Installation
 
 ```bash
-npm install -g cursor-mcp-myserver
+npm install -g @your-username/cursor-mcp-server
 ```
 
 ## Usage
@@ -21,9 +21,9 @@ Add to your Cursor settings (`Ctrl+,` → Extensions → MCP):
 ```json
 {
   "mcpServers": {
-    "cursor-mcp-myserver": {
+    "cursor-mcp-server": {
       "command": "npx",
-      "args": ["cursor-mcp-myserver"]
+      "args": ["@your-username/cursor-mcp-server"]
     }
   }
 }
@@ -34,7 +34,7 @@ Or if installed globally:
 ```json
 {
   "mcpServers": {
-    "cursor-mcp-myserver": {
+    "cursor-mcp-server": {
       "command": "cursor-mcp-myserver"
     }
   }
